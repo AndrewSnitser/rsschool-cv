@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.top__header {
+  height: 100px;
+  background-color: white;
+}
+
+.bottom__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 30px;
+  background-color: rgb(54, 54, 82);
+}
+
+.title__header {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.info__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.personal__header {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  margin-right: 100px;
+}
+
+.email__header {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.birth__header {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(135, 123, 53);
+  margin: 0;
+}
+
+.experience__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.title__main {
+  position: relative;
+  font-weight: 600px;
+  font-size: 20px;
+  color: rgb(54, 54, 82);
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.container__main {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
+}
+
+.title__main::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  top: 30px;
+  width: 90%;
+  height: 1px;
+  background-color: goldenrod;
+}
+
+.position__main {
+  font-weight: 700px;
+  font-size: 18px;
+  color: rgb(81, 75, 75);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.date__main {
+  font-weight: 400px;
+  font-size: 16px;
+  color: rgb(99, 79, 28);
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.list-experience__main {
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.list-skills__main {
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.skills__main {
+  margin-bottom: 15px;
+}
+
+.list-skills__main {
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.languages-list__main {
+  padding: 0;
+  margin: 0;
+  padding-left: 15px;
+}
